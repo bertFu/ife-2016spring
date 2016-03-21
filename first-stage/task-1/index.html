@@ -1,10 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>task-1</title>
-</head>
-<body>
-  task-1
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>使用HTML编写</title>
+    </head>
+    <body>
+        <h1><a name="top"></a>文章标题</h1>
+        
+        <ul>
+            <li>文章较长可以在这里显示目录</li>
+            <ol>
+                <li>目录1</li>
+                <li>目录2</li>
+            </ol>
+        </ul>
+        
+        <p><b>文章的相关图片</b></p>
+        <img src="./img/bear.jpg">
+        
+        
+        <h3>前言：</h3>
+        <div>引出读者继续往下的兴趣，引出读者继续往下的兴趣，引出读者继续往下的兴趣，引出读者继续往下的兴趣，
+             引出读者继续往下的兴趣，引出读者继续往下的兴趣，引出读者继续往下的兴趣，引出读者继续往下的兴趣，
+             引出读者继续往下的兴趣，</div>
+        
+        <h5>小标题一</h5>
+        <div>我是内容不是很长的内容，我是内容不是很长的内容，我是内容不是很长的内容，我是内容不是很长的内容，
+            我是内容不是很长的内容，我是内容不是很长的内容，我是内容不是很长的内容，我是内容不是很长的内容，
+            我是内容不是很长的内容，我是内容不是很长的内容，我是内容不是很长的内容，我是内容不是很长的内容，
+            我是内容不是很长的内容，我是内容不是很长的内容，我是内容不是很长的内容，我是内容不是很长的内容，
+            我是内容不是很长的内容，</div>
+        <img src="./img/bear.jpg">
+        
+        <h5>小标题二</h5>
+        <div>我是内容不是很长的内容，我是内容不是很长的内容，我是内容不是很长的内容，我是内容不是很长的内容，
+            我是内容不是很长的内容，我是内容不是很长的内容，我是内容不是很长的内容，我是内容不是很长的内容，
+            我是内容不是很长的内容，我是内容不是很长的内容，我是内容不是很长的内容，我是内容不是很长的内容，
+            我是内容不是很长的内容，我是内容不是很长的内容，我是内容不是很长的内容，我是内容不是很长的内容，
+            我是内容不是很长的内容，</div>
+        <img src="./img/bear.jpg">
+        
+        <h5>小标题三</h5>
+        <div>我是内容不是很长的内容，我是内容不是很长的内容，我是内容不是很长的内容，我是内容不是很长的内容，
+            我是内容不是很长的内容，我是内容不是很长的内容，我是内容不是很长的内容，我是内容不是很长的内容，
+            我是内容不是很长的内容，我是内容不是很长的内容，我是内容不是很长的内容，我是内容不是很长的内容，
+            我是内容不是很长的内容，我是内容不是很长的内容，我是内容不是很长的内容，我是内容不是很长的内容，
+            我是内容不是很长的内容，</div>
+        <img src="./img/bear.jpg">
+       
+        <p><a href="http://www.baidu.com">相关文章链接</a></p>
+        
+        <table border="1">
+            <caption>标题:我添加的border。</caption>
+             <tbody>
+                <tr>
+                    <th>单元格1</th>
+                    <th>单元格2</th>
+                    <th>单元格3</th>
+                    <th>单元格4</th>
+                </tr>
+                <tr>
+                    <td>单元格5</td>
+                    <td>单元格7</td>
+                    <td>单元格8</td>
+                    <td>单元格8</td>
+                </tr>
+                <tr>
+                    <td colspan="2">单元格5</td>
+                    <td rowspan="2">单元格6</td>
+                    <td>单元格7</td>
+                </tr>
+                <tr>
+                    <td colspan="2">单元格5</td>
+                    <td >单元格6</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <form>
+            <h3>请输入您的相关信息</h3>
+            <p>
+                姓名：<input type="text" placeholder="输入姓名">
+                密码：<input type="password" placeholder="输入密码">
+            </p>
+           
+            <div>
+                <label for="man">男：</label>
+                <input name="gander" type="radio" id="man" value="man">
+            
+                <label for="woman">女：</label>
+                <input type="radio" name="gander" id="woman" value="woman">
+                
+                <select>
+                    <option value="0">北京</option>
+                    <option value="1">厦门</option>
+                    <option value="2">上海</option>
+                </select>
+                
+                <label for="woman">篮球：</label>
+                <input type="checkbox">
+                
+                <label for="woman">旅游：</label>
+                <input type="checkbox">
+            </div>
+            <div>
+                <textarea cols="20" rows="3">相关描述</textarea>
+            </div>
+            <div>
+                <input type="submit" value="点我提交">
+                <input type="reset" value="点我重置">
+            </div>
+        </form>
+        <p>版权&copy</p>
+    </body>
 </html>
